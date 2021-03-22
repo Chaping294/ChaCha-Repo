@@ -1,0 +1,47 @@
+package basiccalculator;
+ 
+import java.util.Scanner;
+import javax.swing.JOptionPane;
+import static javax.swing.JOptionPane.*;
+
+
+public class Malaque {
+
+ 
+    public static void main(String[] args) {
+         Scanner input = new Scanner(System.in);
+         double sum=0.0,product=0.0,quotient=0.0,difference=0.0;
+         
+         JOptionPane.showMessageDialog(null,"Enter 2 Numbers to Calculate","Calculator",INFORMATION_MESSAGE);
+
+         
+         System.out.print("Enter First Number: ");
+         double num1 = input.nextDouble();
+         
+         System.out.print("Enter Second Number: ");
+         double num2 = input.nextDouble();
+         if(num1!=0.0 && num2!=0.0){
+               
+         sum = num1+num2;
+         difference = num1-num2;
+         quotient = num1/num2;
+         product = num1*num2;
+        
+         
+            String Result ="\n\nSum: "+         sum +
+                                         "\nDifference: "+  difference +
+                                         "\nProduct: "+     product +
+                                         "\nquotient: "+    quotient;
+       
+           
+        JOptionPane.showMessageDialog(null,Result);
+         }
+        
+        
+    
+        
+      
+}
+
+
+}

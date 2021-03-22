@@ -1,0 +1,564 @@
+2020-10-29 13:05:47.413-07:00 [3380:002] [Info] [RegularSkypeApplication] App constructor: process started. App version:14.44.40.1000
+2020-10-29 13:08:41.140-07:00 [3380:002] [Info] [Lifecycle] OnSuspending: Early exit because ReactHost was never initialized
+2020-10-29 13:30:20.235-07:00 [3380:002] [Info] [Lifecycle] OnResuming: Start
+2020-10-29 13:30:20.235-07:00 [3380:002] [Info] [Lifecycle] OnResuming (Early exit because ReactHost was never initialized)
+2020-10-29 13:30:20.516-07:00 [3380:002] [Info] [RegularSkypeApplication] OnBackgroundActivated 19bf5d67-a65c-4164-a027-f5bc8f7b24fc
+2020-10-29 13:30:20.594-07:00 [3380:002] [Info] [ExternalApi] Notifications enabled
+2020-10-29 13:30:20.610-07:00 [3380:002] [Info] [RegularSkypeApplication] EnsureReactNativeHostStarted: no bytecode file present to delete
+2020-10-29 13:30:20.626-07:00 [3380:002] [Info] [RegularSkypeApplication] EnsureReactNativeHostStarted: starting host
+2020-10-29 13:30:20.626-07:00 [3380:002] [Info] [RNW] ReactInstanceManager: constructor
+2020-10-29 13:30:20.641-07:00 [3380:002] [Info] [RegularSkypeApplication] EnsureReactNativeHostStarted: host started
+2020-10-29 13:30:20.641-07:00 [3380:002] [Info] [RNW] ReactInstanceManager: TryGetReactContextAsync - entry
+2020-10-29 13:30:20.641-07:00 [3380:002] [Info] [RNW] ReactInstanceManager: TryGetReactContextAsync - execute/returning existing null context
+2020-10-29 13:30:20.641-07:00 [3380:002] [Info] [ThemedPage] NotifyReactHostReady
+2020-10-29 13:30:20.641-07:00 [3380:002] [Info] [RegularSkypeApplication] GetReactContext: Creating ReactNative context (if not yet)
+2020-10-29 13:30:20.641-07:00 [3380:002] [Info] [RNW] ReactInstanceManager: GetOrCreateReactContextAsync - entry
+2020-10-29 13:30:20.641-07:00 [3380:002] [Info] [RNW] ReactInstanceManager: GetOrCreateReactContextAsync - execute
+2020-10-29 13:30:20.641-07:00 [3380:002] [Info] [RNW] ReactInstanceManager: Creating React context - entry
+2020-10-29 13:30:20.813-07:00 [3380:002] [Warn] [RNW] Can't create layout manager view; falling back to main view.
+2020-10-29 13:30:22.182-07:00 [3380:002] [Info] [SKPCamera] SKP Camera constructed
+2020-10-29 13:30:22.182-07:00 [3380:002] [Info] [RNCallMonitorModule] RNCallMonitorModule ctor
+2020-10-29 13:30:22.309-07:00 [3380:002] [Info] [RNWindowManagerModule] RNWindowManagerModule ctor
+2020-10-29 13:30:22.345-07:00 [3380:007] [Info] [RNW] AppStateModule: initial appState is background
+2020-10-29 13:30:22.345-07:00 [3380:007] [Info] [RNEntropyModule] Getting entropy seed
+2020-10-29 13:30:22.399-07:00 [3380:007] [Info] [RNW] Serialized bytecode script doesn't exist or is obsolete, will generate one
+2020-10-29 13:30:24.894-07:00 [3380:008] [Info] [RNW] AppStateModule: getCurrentAppState returned background
+2020-10-29 13:30:25.285-07:00 [3380:007] [Error] [JS] [#ffffffff-S] [ERROR] [JS.HockeyApp] Skipping - no HockeyApp ID or secret provided
+2020-10-29 13:30:25.316-07:00 [3380:008] [Warn] [RNW] Soft Exception: console.error: "[#ffffffff-S] [ERROR] [JS.HockeyApp] Skipping - no HockeyApp ID or secret provided"
+n.prototype.log
+    ms-appx:///ReactAssets/index.windows.bundle:260:1973
+Anonymous
+    function (ms-appx:///ReactAssets/index.windows.bundle:258:5627
+n.prototype.log
+    ms-appx:///ReactAssets/index.windows.bundle:258:5590
+e.prototype.error
+    ms-appx:///ReactAssets/index.windows.bundle:258:3080
+Anonymous
+    function (ms-appx:///ReactAssets/index.windows.bundle:255:11774
+k
+    ms-appx:///ReactAssets/index.windows.bundle:255:10649
+o.error
+    ms-appx:///ReactAssets/index.windows.bundle:255:11736
+e.prototype.startup
+    ms-appx:///ReactAssets/index.windows.bundle:2249:242
+
+2020-10-29 13:30:25.379-07:00 [3380:008] [Info] [RNCallMonitorModule] RNCallMonitorModule Initialize
+2020-10-29 13:30:25.379-07:00 [3380:008] [Info] [RNWindowManagerModule] Initialize
+2020-10-29 13:30:25.394-07:00 [3380:008] [Info] [CallKitManagerModule] CallTrackerTwoProcess constructed
+2020-10-29 13:30:25.394-07:00 [3380:008] [Info] [CallKitManagerModule] InitializeSkypeBackgroundHostProcess
+2020-10-29 13:30:25.394-07:00 [3380:008] [Info] [CallKitManagerModule] EnsureSkypeBackgroundHostProcessLaunched[0]: start
+2020-10-29 13:30:25.551-07:00 [3380:008] [Info] [CallKitManagerModule] EnsureSkypeBackgroundHostProcessLaunched[0]: complete
+2020-10-29 13:30:25.551-07:00 [3380:007] [Info] [JS] [#ffffffff-u] [TRACE] [JS.AppUpgrade] Last app launch time: undefined
+2020-10-29 13:30:25.551-07:00 [3380:007] [Info] [JS] [#ffffffff-u] [TRACE] [JS.Startup] SkypeId missing in Storage
+2020-10-29 13:30:25.613-07:00 [3380:009] [Info] [RNW] ReactInstanceManager: Creating React context - done
+2020-10-29 13:30:25.613-07:00 [3380:002] [Info] [RNW] ReactInstanceManager: Setting up React context - entry
+2020-10-29 13:30:25.613-07:00 [3380:008] [Info] [CallKitManagerModule] InitializeSkypeBackgroundHostProcess: registered SessionConnected task
+2020-10-29 13:30:25.613-07:00 [3380:002] [Info] [RNW] ReactInstanceManager: Setting up React context - done
+2020-10-29 13:30:25.613-07:00 [3380:002] [Info] [RNW] ReactInstanceManager: GetOrCreateReactContextAsync - returning valid context
+2020-10-29 13:30:25.613-07:00 [3380:002] [Info] [BackgroundTaskManager] OnBackgroundActivated 19bf5d67-a65c-4164-a027-f5bc8f7b24fc: BackgroundTaskStarted : HeadlessJSTask.StaticTask.OnAppUpdated2
+2020-10-29 13:30:25.629-07:00 [3380:009] [Info] [CallKitManagerModule] OnResume (causeId: d6e2ecc6-1df6-4501-8d41-1f133166e3c5)
+2020-10-29 13:30:25.676-07:00 [3380:008] [Info] [HeadlessTaskRegistrar] registerTriggers called. taskName:'SignInOnUserSessionConnected'
+2020-10-29 13:30:25.754-07:00 [3380:008] [Info] [HeadlessTaskRegistrar] Adding trigger for triggerType:'OnUserSessionConnected'
+2020-10-29 13:30:25.894-07:00 [3380:007] [Info] [JS] [#ffffffff-S] [TRACE] [JS.SISU] [QsoProvider] setIsFirstTimeSignIn: true isDeletionEnabledOnFirstTimeSignIn: true
+2020-10-29 13:30:25.894-07:00 [3380:007] [Info] [JS] [#ffffffff-S] [TRACE] [JS.SISU] [QsoProvider] removing all accounts
+2020-10-29 13:30:25.894-07:00 [3380:007] [Info] [JS] [#ffffffff-S] [TRACE] [JS.SISU] [InterruptHandlerProvider] setIsFirstTimeSignIn: true isDeletionEnabledOnFirstTimeSignIn: false
+2020-10-29 13:30:25.894-07:00 [3380:007] [Info] [JS] [#ffffffff-S] [TRACE] [JS.SISU] [MigratedCredentialsProvider] setIsFirstTimeSignIn: true isDeletionEnabledOnFirstTimeSignIn: false
+2020-10-29 13:30:25.926-07:00 [3380:008] [Info] [HeadlessTaskRegistrar] registerTriggers succeeded. taskName:'HeadlessJSTask.SignInOnUserSessionConnected', Id:'42269452-ef1a-4c4c-9360-d491556eb9e1'
+2020-10-29 13:30:25.926-07:00 [3380:008] [Info] [HeadlessTaskRegistrar] registerTriggers called. taskName:'SignInOnDefaultMSAConnected'
+2020-10-29 13:30:25.941-07:00 [3380:007] [Info] [JS] [#ffffffff-S] [TRACE] [JS.ConsoleSink] initialized and paused
+2020-10-29 13:30:25.972-07:00 [3380:008] [Info] [RNKeyChainModule] Delete Password
+2020-10-29 13:30:25.972-07:00 [3380:008] [Info] [RNKeyChainModule] deletePassword - Deleted credentials
+2020-10-29 13:30:25.972-07:00 [3380:008] [Info] [HeadlessTaskRegistrar] Adding trigger for triggerType:'OnDefaultMSAConnected'
+2020-10-29 13:30:26.004-07:00 [3380:007] [Info] [JS] [#ffffffff-u] [TRACE] [JS.NativeCodeTelemetry] Early noop for onTelemetryEvent
+2020-10-29 13:30:26.004-07:00 [3380:007] [Info] [JS] [#ffffffff-S] [TRACE] [JS.ConsoleSink] resumed
+2020-10-29 13:30:26.082-07:00 [3380:007] [Info] [JS] [#ffffffff-S] [TRACE] [JS.SISU] [BGLogin] Handling Background sign-in
+2020-10-29 13:30:26.097-07:00 [3380:008] [Info] [HeadlessTaskRegistrar] registerTriggers succeeded. taskName:'HeadlessJSTask.SignInOnDefaultMSAConnected', Id:'be1ef80d-7339-4766-ae86-75002aaa2924'
+2020-10-29 13:30:26.269-07:00 [3380:007] [Info] [JS] [#ffffffff-S] [TRACE] [JS.SISU] [Login] starting, attempting credential migration...
+2020-10-29 13:30:26.347-07:00 [3380:007] [Warn] [JS] [#01f1280b-S] [WARN] [RootToolsManager] registerListeners: RootToolsManagerDelegate missing setNativeLoggingEventCallback method
+2020-10-29 13:30:26.347-07:00 [3380:007] [Info] [JS] [#ffffffff-S] [TRACE] [JS.Calling] CallingCapabilities.anyCallingSupported, oneToOneCallingSupported: true, groupCallingSupported: true
+2020-10-29 13:30:26.347-07:00 [3380:007] [Info] [JS] [#ffffffff-S] [TRACE] [JS.Calling] Setting store state None -> StartingEssentials causeId: 1c30b417
+2020-10-29 13:30:26.347-07:00 [3380:007] [Info] [JS] [#ffffffff-S] [TRACE] [JS.Calling] No promises waiting for state change causeId: 1c30b417
+2020-10-29 13:30:26.379-07:00 [3380:008] [Info] [RNBackgroundExecutionModule] acquire(BackgroundSignIn), wakelock id: 1, at: 1604003426, for: 5000 milliseconds
+2020-10-29 13:30:26.379-07:00 [3380:008] [Info] [HeadlessTaskRegistrar] registerTriggers called. taskName:'BackgroundHeartbeatTelemetry'
+2020-10-29 13:30:26.504-07:00 [3380:009] [Info] [RnSlimCoreModule] Initializing SkyLib [platform 1446] [version 8.44.0.40] [enableLogs False] [encryptLogs False]
+2020-10-29 13:30:26.566-07:00 [3380:004] [Info] [HeadlessTaskRegistrar] Adding trigger for triggerType:'OnTimerElapsed'
+2020-10-29 13:30:26.597-07:00 [3380:004] [Info] [HeadlessTaskRegistrar] registerTriggers succeeded. taskName:'HeadlessJSTask.BackgroundHeartbeatTelemetry', Id:'f02785cf-25ae-4184-aabf-690426127dc0'
+2020-10-29 13:30:26.613-07:00 [3380:008] [Info] [HeadlessTaskRegistrar] registerTriggers called. taskName:'OnMaintenanceWindowStart'
+2020-10-29 13:30:26.644-07:00 [3380:008] [Info] [HeadlessTaskRegistrar] Adding trigger for triggerType:'OnMaintenanceWindowStart'
+2020-10-29 13:30:26.675-07:00 [3380:008] [Info] [HeadlessTaskRegistrar] registerTriggers succeeded. taskName:'HeadlessJSTask.OnMaintenanceWindowStart', Id:'8b1ad45f-e281-4fba-a450-1a7958d178e9'
+2020-10-29 13:30:26.675-07:00 [3380:004] [Info] [HeadlessTaskRegistrar] registerTriggers called. taskName:'ToastActivation'
+2020-10-29 13:30:26.738-07:00 [3380:004] [Info] [HeadlessTaskRegistrar] Adding trigger for triggerType:'OnLocalNotificationAction'
+2020-10-29 13:30:26.769-07:00 [3380:004] [Info] [HeadlessTaskRegistrar] registerTriggers succeeded. taskName:'HeadlessJSTask.ToastActivation', Id:'464e4f15-8c50-4f9a-b180-f92db8fe7833'
+2020-10-29 13:30:26.816-07:00 [3380:009] [Info] [RnSlimCoreModule] GI::InitPlatform took 300ms
+2020-10-29 13:30:26.863-07:00 [3380:008] [Info] [RnSlimCoreModule] Write MR config took 46ms
+2020-10-29 13:30:26.910-07:00 [3380:008] [Info] [RnSlimCoreModule] SkyLib::constructor took 55ms
+2020-10-29 13:30:26.910-07:00 [3380:008] [Info] [RnSlimCoreModule] Initialized in 402ms
+2020-10-29 13:30:26.910-07:00 [3380:007] [Info] [JS] [#ffffffff-u] [TRACE] [JS.TsCalling] Calling/DeviceManager/cameras constructor
+2020-10-29 13:30:26.910-07:00 [3380:007] [Info] [JS] [#ffffffff-u] [TRACE] [JS.TsCalling] Calling/DeviceManager/microphones constructor
+2020-10-29 13:30:26.910-07:00 [3380:007] [Info] [JS] [#ffffffff-u] [TRACE] [JS.TsCalling] Calling/DeviceManager/speakers constructor
+2020-10-29 13:30:26.910-07:00 [3380:007] [Info] [JS] [#ffffffff-u] [TRACE] [JS.TsCalling] Calling/DeviceManager/compositeaudiodevices constructor
+2020-10-29 13:30:26.925-07:00 [3380:007] [Warn] [JS] [#ffffffff-u] [WARN] [JS.TsCalling] Calling/DeviceManager _requestDevices failed: permission not granted causeId: init
+2020-10-29 13:30:26.925-07:00 [3380:007] [Warn] [JS] [#ffffffff-u] [WARN] [JS.TsCalling] Calling/DeviceManager _requestDevices failed: permission not granted causeId: init
+2020-10-29 13:30:26.925-07:00 [3380:007] [Info] [JS] [#ffffffff-S] [TRACE] [JS.Calling] Setting state None -> Initialized causeId: 78b2e0cd
+2020-10-29 13:30:26.925-07:00 [3380:007] [Info] [JS] [#ffffffff-S] [TRACE] [JS.Calling] No promises waiting for state change Initialized causeId: 78b2e0cd
+2020-10-29 13:30:26.925-07:00 [3380:007] [Info] [JS] [#ffffffff-u] [TRACE] [JS.TsCalling] Calling/SlimcoreRNStack returning default callRegistry
+2020-10-29 13:30:26.925-07:00 [3380:007] [Info] [JS] [#ffffffff-u] [TRACE] [JS.TsCalling] Calling/DeviceManager requestInitialDeviceEnumeration: enumeration complete success false causeId init
+2020-10-29 13:30:27.066-07:00 [3380:007] [Info] [JS] [#ffffffff-S] [TRACE] [JS.Calling] Setting store state StartingEssentials -> StartedEssentials causeId: d4e5f2c9
+2020-10-29 13:30:27.066-07:00 [3380:007] [Info] [JS] [#ffffffff-S] [TRACE] [JS.Calling] No promises waiting for state change causeId: d4e5f2c9
+2020-10-29 13:30:27.097-07:00 [3380:009] [Info] [RnSlimCoreModule] Starting SkyLib
+2020-10-29 13:30:27.254-07:00 [3380:007] [Info] [JS] [#ffffffff-u] [TRACE] [JS.GenericUnsafe] SharedId updated, will be saved on startup
+2020-10-29 13:30:29.915-07:00 [3380:009] [Info] [RnSlimCoreModule] SkyLib::Start took 2818ms
+2020-10-29 13:30:29.920-07:00 [3380:009] [Info] [RnSlimCoreModule] OnAvailableDeviceListChange causeId: 1ACB9C33
+2020-10-29 13:30:29.920-07:00 [3380:009] [Info] [RnSlimCoreModule] sendEvent RNSlimcore-DevicesChangedEvent 1ACB9C33
+2020-10-29 13:30:29.920-07:00 [3380:009] [Info] [RnSlimCoreModule] OnAvailableVideoDeviceListChange causeId: 4C0638A1
+2020-10-29 13:30:29.920-07:00 [3380:009] [Info] [RnSlimCoreModule] sendEvent RNSlimcore-DevicesChangedEvent 4C0638A1
+2020-10-29 13:30:29.920-07:00 [3380:009] [Info] [RnSlimCoreModule] sendEvent RNSlimcore-MediaStatusChangedEvent 1
+2020-10-29 13:30:29.920-07:00 [3380:007] [Info] [JS] [#ffffffff-u] [TRACE] [JS.TsCalling] Calling/DeviceManager _handleDevicesChange video: false causeId: 1ACB9C33
+2020-10-29 13:30:29.920-07:00 [3380:007] [Warn] [JS] [#ffffffff-u] [WARN] [JS.TsCalling] Calling/DeviceManager _requestDevices failed: permission not granted causeId: 1ACB9C33
+2020-10-29 13:30:29.920-07:00 [3380:007] [Warn] [JS] [#ffffffff-u] [WARN] [JS.TsCalling] Calling/DeviceManager _handleDevicesChange failed: _requestDevices failed: permission not granted causeId: 1ACB9C33
+2020-10-29 13:30:29.920-07:00 [3380:007] [Info] [JS] [#ffffffff-u] [TRACE] [JS.TsCalling] Calling/DeviceManager _handleDevicesChange video: true causeId: 4C0638A1
+2020-10-29 13:30:29.920-07:00 [3380:007] [Warn] [JS] [#ffffffff-u] [WARN] [JS.TsCalling] Calling/DeviceManager _requestDevices failed: permission not granted causeId: 4C0638A1
+2020-10-29 13:30:29.920-07:00 [3380:007] [Warn] [JS] [#ffffffff-u] [WARN] [JS.TsCalling] Calling/DeviceManager _handleDevicesChange failed: _requestDevices failed: permission not granted causeId: 4C0638A1
+2020-10-29 13:30:29.920-07:00 [3380:007] [Info] [JS] [#ffffffff-u] [TRACE] [JS.TsCalling] Calling/SlimcoreRNStack Received Media Status update=1
+2020-10-29 13:30:29.941-07:00 [3380:007] [Info] [JS] [#ffffffff-S] [TRACE] [JS.SISU] [T1Migration] Got T1 credentials
+2020-10-29 13:30:29.941-07:00 [3380:007] [Info] [JS] [#ffffffff-S] [TRACE] [JS.SISU] [T1Migration] Got empty T1 credentials object
+2020-10-29 13:30:29.941-07:00 [3380:007] [Info] [JS] [#ffffffff-S] [TRACE] [JS.SISU] [T1Migration] Failed to fetch T1 credentials, reason: Error: Neither refresh token or password hash is available.
+2020-10-29 13:30:29.941-07:00 [3380:007] [Info] [JS] [#ffffffff-S] [TRACE] [JS.SISU] [Login] credential migration failed: [pii<E...>]
+2020-10-29 13:30:29.941-07:00 [3380:007] [Info] [JS] [#ffffffff-S] [TRACE] [JS.SISU] [AutoSignIn] starting...
+2020-10-29 13:30:29.977-07:00 [3380:009] [Info] [RNMSATokenFetcherModule] Retrieving access token silently
+2020-10-29 13:30:29.977-07:00 [3380:009] [Info] [WAMTokenCacheManager] Account settings not found using old cache keys for service::lw.skype.com::MBI_SSL.
+2020-10-29 13:30:29.977-07:00 [3380:009] [Info] [WAMTokenManager] Cached Web Account Id does not exist for authScope: service::lw.skype.com::MBI_SSL
+2020-10-29 13:30:29.977-07:00 [3380:009] [Info] [WAMTokenManager] [Default MSA] Retrieving access token for authScope: service::lw.skype.com::MBI_SSL
+2020-10-29 13:30:29.999-07:00 [3380:008] [Warn] [WAMTokenManager] [Default MSA] No default MSA available on the machine
+2020-10-29 13:30:29.999-07:00 [3380:008] [Warn] [WAMTokenManager] No default MSA available
+2020-10-29 13:30:29.999-07:00 [3380:008] [Info] [RNMSATokenFetcherModule] Could not retrieve access token from WAM
+2020-10-29 13:30:30.046-07:00 [3380:007] [Info] [JS] '[#ffffffff-S] [TRACE] [JS.SISU] [AutoSignIn] errored out fetching access token. Code', 0, 'Message', 4, 'HResult', 'E_UserInteractionRequired'
+2020-10-29 13:30:30.062-07:00 [3380:007] [Info] [JS] [#ffffffff-S] [TRACE] [JS.SISU] [AutoSignIn] attempt complete
+2020-10-29 13:30:30.062-07:00 [3380:007] [Info] [JS] [#ffffffff-S] [TRACE] [JS.SISU] [Login] falling back to interactive login
+2020-10-29 13:30:30.062-07:00 [3380:007] [Info] [JS] [#ffffffff-u] [TRACE] [JS.Startup] AppBootstrapperNative._fallbackToLogin reason: NoSkypeIdFound
+2020-10-29 13:30:30.115-07:00 [3380:007] [Info] [JS] [#ffffffff-u] [TRACE] [JS.Startup] Starting: ResponsiveWidthStore
+2020-10-29 13:30:30.115-07:00 [3380:007] [Info] [JS] [#ffffffff-S] [TRACE] [JS.ResponsiveWidthStore] New orientation from width update: 1 window dimensions, w: 0 h: 0 rootViewId: [pii<u1>] causeId: 1526055f
+2020-10-29 13:30:30.115-07:00 [3380:007] [Info] [JS] [#ffffffff-u] [TRACE] [JS.Startup] Finish: ResponsiveWidthStore: 9ms
+2020-10-29 13:30:30.131-07:00 [3380:007] [Info] [JS] [#ffffffff-u] [TRACE] [JS.Startup] Starting: StatusBarManager, Deps Finish: 16ms
+2020-10-29 13:30:30.131-07:00 [3380:007] [Info] [JS] [#ffffffff-u] [TRACE] [JS.Startup] Finish: StatusBarManager: 11ms
+2020-10-29 13:30:30.131-07:00 [3380:007] [Info] [JS] [#ffffffff-u] [TRACE] [JS.Startup] Starting: SafeAreaStore, Deps Finish: 28ms
+2020-10-29 13:30:30.131-07:00 [3380:007] [Info] [JS] [#ffffffff-u] [TRACE] [JS.Startup] Finish: SafeAreaStore: 1ms
+2020-10-29 13:30:30.131-07:00 [3380:007] [Info] [JS] [#ffffffff-u] [TRACE] [JS.Startup] Starting: ReportedConnectivityStore
+2020-10-29 13:30:30.131-07:00 [3380:007] [Info] [JS] [#ffffffff-u] [TRACE] [JS.Startup] Finish: ReportedConnectivityStore: 4ms
+2020-10-29 13:30:30.131-07:00 [3380:007] [Info] [JS] [#ffffffff-u] [TRACE] [JS.Startup] WelcomeScreen waiting for ECS config with timeout: 1000
+2020-10-29 13:30:30.147-07:00 [3380:007] [Info] [JS] [#ffffffff-S] [TRACE] [JS.SISU] [Login] attempt complete
+2020-10-29 13:30:30.194-07:00 [3380:007] [Info] [JS] [#ffffffff-u] [TRACE] [JS.ReportedConnectivityStore]  _fetchNetworkType() type: Unknown
+2020-10-29 13:30:30.220-07:00 [3380:007] [Info] [JS] [#ffffffff-u] [TRACE] [JS.ReportedConnectivityStore] connectivity has changed: Connected = false
+2020-10-29 13:30:30.222-07:00 [3380:007] [Info] [JS] [#ffffffff-S] [TRACE] [JS.IdleSchedulingService] oldState: {"uiDisplayed":false,"inCall":false,"inCallEstablishment":false,"networkingAvailable":false,"busyTaskDelay":250,"afterUiShownDelay":2500} partialState: {"networkingAvailable":false} diffState: {}
+2020-10-29 13:30:30.222-07:00 [3380:007] [Info] [JS] [#ffffffff-S] [TRACE] [JS.IdleSchedulingService] oldState: {"uiDisplayed":false,"inCall":false,"inCallEstablishment":false,"networkingAvailable":false,"busyTaskDelay":250,"afterUiShownDelay":2500} partialState: {"networkingAvailable":false} diffState: {}
+2020-10-29 13:30:31.161-07:00 [3380:007] [Info] [JS] [#ffffffff-u] [TRACE] [JS.Startup] WelcomeScreen waiting for ECS config timed out: true
+2020-10-29 13:30:31.161-07:00 [3380:007] [Info] [JS] [#ffffffff-u] [TRACE] [JS.Startup] ServiceStateStore: Setting statup UI state to 1
+2020-10-29 13:30:31.163-07:00 [3380:007] [Info] [JS] [#ffffffff-S] [TRACE] [JS.ResponsiveWidthStore] No window width dimension for rootViewId:[pii<u1>]
+2020-10-29 13:30:45.635-07:00 [3380:002] [Warn] [HeadlessJSTaskService] Task failed to complete. Either timeout happened or caller cancelled. Cancelling task. Name: StaticTask.OnAppUpdated2, Id:1 Timeout:20000ms
+2020-10-29 13:30:45.655-07:00 [3380:007] [Info] [JS] [#ffffffff-S] [TRACE] [JS.SISU] [BGLogin] Background sign-in got cancelled
+2020-10-29 13:30:45.674-07:00 [3380:007] [Info] [JS] [#ffffffff-S] [TRACE] [JS.ConsoleSink] flush
+2020-10-29 13:30:45.686-07:00 [3380:007] [Info] [JS] [#ffffffff-S] [TRACE] [JS.SISU] [BGLogin] Background sign in attempt completed
+2020-10-29 13:30:45.706-07:00 [3380:008] [Info] [RNBackgroundExecutionModule] release(BackgroundSignIn), wakelock id: 1, at: 1604003445, is known: True
+2020-10-29 13:30:45.706-07:00 [3380:008] [Info] [RNBackgroundExecutionModule] releaseAll(BackgroundSignIn), forcing release: 0, ids: [], at: 1604003445, because last ID or Wakeful Service is being released
+2020-10-29 13:30:45.714-07:00 [3380:002] [Info] [BackgroundTaskManager] OnBackgroundActivated: ExecuteHeadlessJsTaskAsync returned type: ''
+2020-10-29 13:30:45.716-07:00 [3380:002] [Info] [RegularSkypeApplication] EnsureReactNativeHostStarted: host already started
+2020-10-29 13:30:45.716-07:00 [3380:002] [Info] [RegularSkypeApplication] GetReactContext: Creating ReactNative context (if not yet)
+2020-10-29 13:30:45.716-07:00 [3380:002] [Info] [RNW] ReactInstanceManager: GetOrCreateReactContextAsync - entry
+2020-10-29 13:30:45.716-07:00 [3380:002] [Info] [RNW] ReactInstanceManager: GetOrCreateReactContextAsync - execute
+2020-10-29 13:30:45.716-07:00 [3380:002] [Info] [RNW] ReactInstanceManager: GetOrCreateReactContextAsync - returning existing valid context
+2020-10-29 13:30:45.716-07:00 [3380:008] [Info] [RNBackgroundExecutionModule] Beginning WaitForAllExtendedExecutionSessionsRelease. ids: []
+2020-10-29 13:30:45.716-07:00 [3380:002] [Info] [BackgroundTaskManager] RNBackgroundExecution.waitForAllExtendedExecutionSessionsRelease result True
+2020-10-29 13:30:45.746-07:00 [3380:011] [Info] [RegularSkypeApplication] OnBackgroundActivated completing deferral
+2020-10-29 13:30:45.775-07:00 [3380:002] [Info] [Lifecycle] OnSuspendingImplAsync: Start
+2020-10-29 13:30:45.775-07:00 [3380:002] [Info] [RegularSkypeApplication] PauseReactNativeHost: pausing host
+2020-10-29 13:30:45.785-07:00 [3380:002] [Info] [RegularSkypeApplication] PauseReactNativeHost: host paused
+2020-10-29 13:30:45.785-07:00 [3380:002] [Info] [RNW] ReactInstanceManager: TryGetReactContextAsync - entry
+2020-10-29 13:30:45.785-07:00 [3380:002] [Info] [RNW] ReactInstanceManager: TryGetReactContextAsync - execute/returning existing valid context
+2020-10-29 13:30:45.785-07:00 [3380:015] [Info] [CallKitManagerModule] OnSuspend (causeId: 2a1940ff-8066-4ccf-862e-ab76ac347d7b)
+2020-10-29 13:30:45.785-07:00 [3380:015] [Info] [RNBackgroundExecutionModule] Beginning WaitForAllExtendedExecutionSessionsRelease. ids: []
+2020-10-29 13:30:45.785-07:00 [3380:002] [Info] [BackgroundTaskManager] RNBackgroundExecution.waitForAllExtendedExecutionSessionsRelease result True
+2020-10-29 13:30:45.785-07:00 [3380:009] [Info] [RegularSkypeApplication] WaitForAllBackgroundTasksCompletionReturned. Remaining time: 4479.9919ms
+2020-10-29 13:30:45.785-07:00 [3380:009] [Info] [RegularSkypeApplication] OnSuspendingImplAsync: Complete
+2020-10-29 13:34:14.502-07:00 [3380:002] [Info] [Lifecycle] OnResuming: Start
+2020-10-29 13:34:14.502-07:00 [3380:002] [Info] [RegularSkypeApplication] EnsureReactNativeHostStarted: starting host
+2020-10-29 13:34:14.518-07:00 [3380:002] [Info] [RegularSkypeApplication] EnsureReactNativeHostStarted: host started
+2020-10-29 13:34:14.518-07:00 [3380:002] [Info] [Lifecycle] OnResuming: Complete
+2020-10-29 13:34:14.617-07:00 [3380:016] [Info] [CallKitManagerModule] OnResume (causeId: 0a52a2de-7fa4-484f-9cf2-78c3faf8a223)
+2020-10-29 13:34:14.685-07:00 [3380:007] [Info] [JS] [#ffffffff-u] [TRACE] [JS.GenericUnsafe] ECS - Delaying config fetch until the app is active (or background fetch is allowed)
+2020-10-29 13:34:14.778-07:00 [3380:007] [Info] [JS] [#ffffffff-u] [TRACE] [JS.ScenarioTracker] Id: 794d272a-8c4a-4efe-84d9-aeee3e357beb; Name: AppStartupIntent
+	Context_step_name_started: 0
+	Context_AppState: 2
+	Context_StartupContext: Unknown
+	Context_ColdStartup: true
+	Context_error_description: TimedOut
+	PERF_AppStartupIntent_started : 0 ms | 0 ms
+	PERF_AppStartupIntent_ColdStartup : 2893 ms | 2893 ms
+	PERF_AppStartupIntent_Phase1 : 1926 ms | 4819 ms
+	PERF_AppStartupIntent_Phase2 : 774 ms | 5593 ms
+	PERF_AppStartupIntent_failed : 229416 ms | 235009 ms (TARGET)
+	PERF_AppStartupIntent_Total : 235009 ms
+2020-10-29 13:34:24.537-07:00 [3380:002] [Info] [Lifecycle] OnSuspendingImplAsync: Start
+2020-10-29 13:34:24.577-07:00 [3380:002] [Info] [RegularSkypeApplication] PauseReactNativeHost: pausing host
+2020-10-29 13:34:24.577-07:00 [3380:002] [Info] [RegularSkypeApplication] PauseReactNativeHost: host paused
+2020-10-29 13:34:24.577-07:00 [3380:002] [Info] [RNW] ReactInstanceManager: TryGetReactContextAsync - entry
+2020-10-29 13:34:24.577-07:00 [3380:002] [Info] [RNW] ReactInstanceManager: TryGetReactContextAsync - execute/returning existing valid context
+2020-10-29 13:34:24.577-07:00 [3380:016] [Info] [CallKitManagerModule] OnSuspend (causeId: 590794df-8023-4e08-84fe-2ed2eebba0a0)
+2020-10-29 13:34:24.597-07:00 [3380:016] [Info] [RNBackgroundExecutionModule] Beginning WaitForAllExtendedExecutionSessionsRelease. ids: []
+2020-10-29 13:34:24.597-07:00 [3380:002] [Info] [BackgroundTaskManager] RNBackgroundExecution.waitForAllExtendedExecutionSessionsRelease result True
+2020-10-29 13:34:24.597-07:00 [3380:017] [Info] [RegularSkypeApplication] WaitForAllBackgroundTasksCompletionReturned. Remaining time: 4378.2218ms
+2020-10-29 13:34:24.597-07:00 [3380:017] [Info] [RegularSkypeApplication] OnSuspendingImplAsync: Complete
+2020-10-30 07:55:03.281-07:00 [3380:002] [Info] [Lifecycle] OnResuming: Start
+2020-10-30 07:55:07.274-07:00 [3380:002] [Info] [RegularSkypeApplication] EnsureReactNativeHostStarted: starting host
+2020-10-30 07:55:07.355-07:00 [3380:002] [Info] [RegularSkypeApplication] EnsureReactNativeHostStarted: host started
+2020-10-30 07:55:07.355-07:00 [3380:002] [Info] [Lifecycle] OnResuming: Complete
+2020-10-30 07:55:07.386-07:00 [3380:034] [Info] [CallKitManagerModule] OnResume (causeId: 84f5a13c-e854-4d73-98ce-f0502b50de7c)
+2020-10-30 07:55:21.645-07:00 [3380:002] [Info] [RegularSkypeApplication] OnBackgroundActivated 87627c18-aec0-4321-b0cb-c0a02db37632
+2020-10-30 07:55:24.949-07:00 [3380:002] [Info] [ExternalApi] Notifications enabled
+2020-10-30 07:55:25.527-07:00 [3380:002] [Info] [BackgroundTaskManager] OnBackgroundActivated: TaskName = BackgroundHeartbeatTelemetry, ErrStr = User is not signed in on Skype, returning...
+2020-10-30 07:55:31.029-07:00 [3380:002] [Info] [RegularSkypeApplication] OnBackgroundActivated completing deferral
+2020-10-30 07:55:36.055-07:00 [3380:002] [Info] [Lifecycle] OnSuspending: Exiting early because the OS gave us too little time for clean suspend
+2020-12-29 22:51:02.520-08:00 [3992:002] [Info] [RegularSkypeApplication] App constructor: process started. App version:14.44.40.1000
+2021-02-03 00:23:10.453-08:00 [788:002] [Info] [RegularSkypeApplication] App constructor: process started. App version:14.44.40.1000
+2021-02-03 00:23:10.749-08:00 [788:002] [Info] [RegularSkypeApplication] OnBackgroundActivated 52268dc7-d767-4aef-9bda-a14a5ebd641a
+2021-02-03 00:23:10.796-08:00 [788:002] [Info] [ExternalApi] Notifications enabled
+2021-02-03 00:23:10.796-08:00 [788:002] [Info] [BackgroundTaskManager] OnBackgroundActivated: TaskName = BackgroundHeartbeatTelemetry, ErrStr = User is not signed in on Skype, returning...
+2021-02-03 00:23:10.859-08:00 [788:002] [Info] [RegularSkypeApplication] OnBackgroundActivated completing deferral
+2021-02-03 00:23:10.859-08:00 [788:002] [Info] [RegularSkypeApplication] OnBackgroundActivated ae72f6fe-7c30-4cdb-891a-91036978c1a1
+2021-02-03 00:23:10.859-08:00 [788:002] [Info] [ExternalApi] Notifications enabled
+2021-02-03 00:23:10.890-08:00 [788:002] [Info] [BackgroundTaskManager] OnBackgroundActivated: TaskName = SignInOnUserSessionConnected, ErrStr = User is not signed in on Skype, No default MSA available on the machine, returning...
+2021-02-03 00:23:10.890-08:00 [788:002] [Info] [RegularSkypeApplication] OnBackgroundActivated f16c242b-20f6-4479-9c35-9796460f0a78
+2021-02-03 00:23:10.890-08:00 [788:002] [Info] [ExternalApi] Notifications enabled
+2021-02-03 00:23:10.906-08:00 [788:006] [Info] [RegularSkypeApplication] OnBackgroundActivated completing deferral
+2021-02-03 00:23:10.906-08:00 [788:002] [Info] [BackgroundTaskManager] OnBackgroundActivated: TaskName = OnMaintenanceWindowStart, ErrStr = User is not signed in on Skype, No default MSA available on the machine, returning...
+2021-02-03 00:23:10.906-08:00 [788:006] [Info] [RegularSkypeApplication] OnBackgroundActivated completing deferral
+2021-02-03 00:23:10.921-08:00 [788:002] [Info] [Lifecycle] OnSuspending: Early exit because ReactHost was never initialized
+2021-02-04 00:58:37.108-08:00 [788:002] [Info] [Lifecycle] OnResuming: Start
+2021-02-04 00:58:37.217-08:00 [788:002] [Info] [Lifecycle] OnResuming (Early exit because ReactHost was never initialized)
+2021-02-04 00:58:39.982-08:00 [788:002] [Info] [RegularSkypeApplication] OnBackgroundActivated 2cff8ec2-7b57-4a2f-9f67-0ae9f09256f4
+2021-02-06 02:52:10.159-08:00 [788:002] [Info] [ExternalApi] Notifications enabled
+2021-02-06 02:52:11.018-08:00 [788:002] [Info] [BackgroundTaskManager] OnBackgroundActivated: TaskName = BackgroundHeartbeatTelemetry, ErrStr = User is not signed in on Skype, returning...
+2021-02-06 02:52:11.440-08:00 [788:002] [Info] [RegularSkypeApplication] OnBackgroundActivated completing deferral
+2021-02-06 02:52:11.597-08:00 [788:002] [Info] [Lifecycle] OnSuspending: Early exit because ReactHost was never initialized
+2021-02-06 04:37:19.785-08:00 [788:002] [Info] [Lifecycle] OnResuming: Start
+2021-02-06 04:37:19.969-08:00 [788:002] [Info] [Lifecycle] OnResuming (Early exit because ReactHost was never initialized)
+2021-02-06 04:37:20.673-08:00 [788:002] [Info] [RegularSkypeApplication] OnBackgroundActivated e469e4d2-3693-412c-a87f-b30a5e486ce6
+2021-02-06 04:37:20.995-08:00 [788:002] [Info] [ExternalApi] Notifications enabled
+2021-02-06 04:37:21.110-08:00 [788:002] [Info] [BackgroundTaskManager] OnBackgroundActivated: TaskName = OnMaintenanceWindowStart, ErrStr = User is not signed in on Skype, No default MSA available on the machine, returning...
+2021-02-06 04:37:21.243-08:00 [788:002] [Info] [RegularSkypeApplication] OnBackgroundActivated completing deferral
+2021-02-06 04:37:21.392-08:00 [788:002] [Info] [Lifecycle] OnSuspending: Early exit because ReactHost was never initialized
+2021-02-06 23:15:51.524-08:00 [788:002] [Info] [Lifecycle] OnResuming: Start
+2021-02-06 23:15:51.524-08:00 [788:002] [Info] [Lifecycle] OnResuming (Early exit because ReactHost was never initialized)
+2021-02-07 02:42:56.199-08:00 [3112:002] [Info] [RegularSkypeApplication] App constructor: process started. App version:14.44.40.1000
+2021-02-07 02:42:56.629-08:00 [3112:002] [Info] [RegularSkypeApplication] OnBackgroundActivated 61ef1b95-80e4-4c1b-9a14-ead210d2f0ca
+2021-02-07 02:42:57.028-08:00 [3112:002] [Info] [ExternalApi] Notifications enabled
+2021-02-07 02:42:57.041-08:00 [3112:002] [Info] [BackgroundTaskManager] OnBackgroundActivated: TaskName = BackgroundHeartbeatTelemetry, ErrStr = User is not signed in on Skype, returning...
+2021-02-07 02:42:57.103-08:00 [3112:002] [Info] [RegularSkypeApplication] OnBackgroundActivated completing deferral
+2021-02-07 02:42:57.103-08:00 [3112:002] [Info] [RegularSkypeApplication] OnBackgroundActivated 1b0ed568-1fa8-4006-8afc-96dbed0479df
+2021-02-07 02:42:57.104-08:00 [3112:002] [Info] [ExternalApi] Notifications enabled
+2021-02-07 02:42:57.123-08:00 [3112:002] [Info] [RegularSkypeApplication] OnBackgroundActivated 230e0aaf-4ea3-431b-8f32-cc5942a8eab5
+2021-02-07 02:42:57.124-08:00 [3112:002] [Info] [ExternalApi] Notifications enabled
+2021-02-07 02:42:57.148-08:00 [3112:002] [Info] [BackgroundTaskManager] OnBackgroundActivated: TaskName = SignInOnUserSessionConnected, ErrStr = User is not signed in on Skype, No default MSA available on the machine, returning...
+2021-02-07 02:42:57.149-08:00 [3112:002] [Info] [BackgroundTaskManager] OnBackgroundActivated: TaskName = OnMaintenanceWindowStart, ErrStr = User is not signed in on Skype, No default MSA available on the machine, returning...
+2021-02-07 02:42:57.149-08:00 [3112:007] [Info] [RegularSkypeApplication] OnBackgroundActivated completing deferral
+2021-02-07 02:42:57.149-08:00 [3112:006] [Info] [RegularSkypeApplication] OnBackgroundActivated completing deferral
+2021-02-07 02:42:57.167-08:00 [3112:002] [Info] [Lifecycle] OnSuspending: Early exit because ReactHost was never initialized
+2021-02-07 21:20:52.023-08:00 [3112:002] [Info] [Lifecycle] OnResuming: Start
+2021-02-07 21:20:52.295-08:00 [3112:002] [Info] [Lifecycle] OnResuming (Early exit because ReactHost was never initialized)
+2021-02-07 21:20:52.671-08:00 [3112:002] [Info] [RegularSkypeApplication] OnBackgroundActivated e7805ad8-5f6c-46cc-ad8a-27c20d4de9db
+2021-02-07 21:20:53.126-08:00 [3112:002] [Info] [ExternalApi] Notifications enabled
+2021-02-07 21:20:53.206-08:00 [3112:002] [Info] [BackgroundTaskManager] OnBackgroundActivated: TaskName = BackgroundHeartbeatTelemetry, ErrStr = User is not signed in on Skype, returning...
+2021-02-07 21:20:53.366-08:00 [3112:002] [Info] [RegularSkypeApplication] OnBackgroundActivated completing deferral
+2021-02-07 21:20:54.129-08:00 [3112:002] [Info] [Lifecycle] OnSuspending: Early exit because ReactHost was never initialized
+2021-02-08 00:30:18.555-08:00 [3112:002] [Info] [Lifecycle] OnResuming: Start
+2021-02-08 00:30:18.570-08:00 [3112:002] [Info] [Lifecycle] OnResuming (Early exit because ReactHost was never initialized)
+2021-02-08 00:30:18.842-08:00 [3112:002] [Info] [RegularSkypeApplication] OnBackgroundActivated 2d2da2ff-fbaf-47e3-9264-8f5a464f9fd6
+2021-02-08 00:30:18.857-08:00 [3112:002] [Info] [ExternalApi] Notifications enabled
+2021-02-08 00:30:18.857-08:00 [3112:002] [Info] [BackgroundTaskManager] OnBackgroundActivated: TaskName = BackgroundHeartbeatTelemetry, ErrStr = User is not signed in on Skype, returning...
+2021-02-08 00:30:18.857-08:00 [3112:002] [Info] [RegularSkypeApplication] OnBackgroundActivated completing deferral
+2021-02-08 00:30:18.873-08:00 [3112:002] [Info] [Lifecycle] OnSuspending: Early exit because ReactHost was never initialized
+2021-02-08 01:59:12.707-08:00 [3112:002] [Info] [Lifecycle] OnResuming: Start
+2021-02-08 01:59:12.978-08:00 [3112:002] [Info] [Lifecycle] OnResuming (Early exit because ReactHost was never initialized)
+2021-02-08 01:59:13.162-08:00 [3112:002] [Info] [RegularSkypeApplication] OnBackgroundActivated 8250270a-ea76-4c8e-9a71-131335e10d24
+2021-02-08 01:59:13.239-08:00 [3112:002] [Info] [ExternalApi] Notifications enabled
+2021-02-08 01:59:13.526-08:00 [3112:002] [Info] [BackgroundTaskManager] OnBackgroundActivated: TaskName = OnMaintenanceWindowStart, ErrStr = User is not signed in on Skype, No default MSA available on the machine, returning...
+2021-02-08 01:59:13.531-08:00 [3112:006] [Info] [RegularSkypeApplication] OnBackgroundActivated completing deferral
+2021-02-08 01:59:13.579-08:00 [3112:002] [Info] [Lifecycle] OnSuspending: Early exit because ReactHost was never initialized
+2021-02-09 00:38:49.098-08:00 [3112:002] [Info] [Lifecycle] OnResuming: Start
+2021-02-09 00:38:49.098-08:00 [3112:002] [Info] [Lifecycle] OnResuming (Early exit because ReactHost was never initialized)
+2021-02-09 00:38:51.524-08:00 [3112:002] [Info] [RegularSkypeApplication] OnBackgroundActivated eae87190-9557-4d02-80bb-1594ddfacd34
+2021-03-07 19:17:54.453-08:00 [4848:002] [Info] [RegularSkypeApplication] App constructor: process started. App version:14.44.40.1000
+2021-03-07 21:56:39.530-08:00 [9132:002] [Info] [RegularSkypeApplication] App constructor: process started. App version:14.56.102.0
+2021-03-07 21:56:40.460-08:00 [9132:002] [Info] [Lifecycle] OnSuspending: Early exit because ReactHost was never initialized
+2021-03-07 22:11:57.901-08:00 [9132:002] [Info] [Lifecycle] OnResuming: Start
+2021-03-07 22:11:58.016-08:00 [9132:002] [Info] [Lifecycle] OnResuming (Early exit because ReactHost was never initialized)
+2021-03-07 22:11:58.140-08:00 [9132:002] [Info] [RegularSkypeApplication] OnBackgroundActivated 8706ff8c-72cb-4712-96de-d5838fa31c8e
+2021-03-07 22:11:58.336-08:00 [9132:002] [Info] [ExternalApi] Notifications enabled
+2021-03-07 22:11:58.380-08:00 [9132:002] [Info] [RegularSkypeApplication] EnsureReactNativeHostStarted: deleting bytecode file as a precaution
+2021-03-07 22:11:58.401-08:00 [9132:002] [Info] [RegularSkypeApplication] EnsureReactNativeHostStarted: starting host
+2021-03-07 22:11:58.411-08:00 [9132:002] [Info] [RNW] ReactInstanceManager: constructor
+2021-03-07 22:11:58.423-08:00 [9132:002] [Info] [RegularSkypeApplication] EnsureReactNativeHostStarted: host started
+2021-03-07 22:11:58.423-08:00 [9132:002] [Info] [RNW] ReactInstanceManager: TryGetReactContextAsync - entry
+2021-03-07 22:11:58.426-08:00 [9132:002] [Info] [RNW] ReactInstanceManager: TryGetReactContextAsync - execute/returning existing null context
+2021-03-07 22:11:58.429-08:00 [9132:002] [Info] [ThemedPage] NotifyReactHostReady
+2021-03-07 22:11:58.430-08:00 [9132:002] [Info] [RegularSkypeApplication] GetReactContext: Creating ReactNative context (if not yet)
+2021-03-07 22:11:58.430-08:00 [9132:002] [Info] [RNW] ReactInstanceManager: GetOrCreateReactContextAsync - entry
+2021-03-07 22:11:58.430-08:00 [9132:002] [Info] [RNW] ReactInstanceManager: GetOrCreateReactContextAsync - execute
+2021-03-07 22:11:58.430-08:00 [9132:002] [Info] [RNW] ReactInstanceManager: Creating React context - entry
+2021-03-07 22:11:58.705-08:00 [9132:002] [Warn] [RNW] Can't create layout manager view; falling back to main view.
+2021-03-07 22:12:00.948-08:00 [9132:002] [Info] [SKPCamera] SKP Camera constructed
+2021-03-07 22:12:00.951-08:00 [9132:002] [Info] [RNCallMonitorModule] RNCallMonitorModule ctor
+2021-03-07 22:12:01.220-08:00 [9132:002] [Info] [RNWindowManagerModule] RNWindowManagerModule ctor
+2021-03-07 22:12:01.303-08:00 [9132:004] [Info] [RNW] AppStateModule: initial appState is background
+2021-03-07 22:12:01.305-08:00 [9132:004] [Info] [RNEntropyModule] Getting entropy seed
+2021-03-07 22:12:01.378-08:00 [9132:004] [Info] [RNW] Serialized bytecode script doesn't exist or is obsolete, will generate one
+2021-03-07 22:12:56.447-08:00 [9132:009] [Info] [RNW] AppStateModule: getCurrentAppState returned background
+2021-03-07 22:12:57.831-08:00 [9132:004] [Error] [JS] [#ffffffff-S] [ERROR] [JS.AppCenter] Skipping - no AppCenter secret provided
+2021-03-07 22:12:58.143-08:00 [9132:009] [Warn] [RNW] Soft Exception: console.error: "[#ffffffff-S] [ERROR] [JS.AppCenter] Skipping - no AppCenter secret provided"
+n.prototype.log
+    ms-appx:///ReactAssets/index.windows.bundle:232:1973
+Anonymous
+    function (ms-appx:///ReactAssets/index.windows.bundle:230:5627
+n.prototype.log
+    ms-appx:///ReactAssets/index.windows.bundle:230:5590
+e.prototype.error
+    ms-appx:///ReactAssets/index.windows.bundle:230:3080
+Anonymous
+    function (ms-appx:///ReactAssets/index.windows.bundle:227:11758
+k
+    ms-appx:///ReactAssets/index.windows.bundle:227:10589
+o.error
+    ms-appx:///ReactAssets/index.windows.bundle:227:11720
+e.prototype.startup
+    ms-appx:///ReactAssets/index.windows.bundle:2339:492
+
+2021-03-07 22:12:58.991-08:00 [9132:010] [Info] [CallKitManagerModule] CallTrackerTwoProcess constructed
+2021-03-07 22:12:58.994-08:00 [9132:010] [Info] [CallKitManagerModule] InitializeSkypeBackgroundHostProcess
+2021-03-07 22:12:58.995-08:00 [9132:010] [Info] [CallKitManagerModule] EnsureSkypeBackgroundHostProcessLaunched[0]: start
+2021-03-07 22:12:59.000-08:00 [9132:009] [Info] [RNCallMonitorModule] RNCallMonitorModule Initialize
+2021-03-07 22:12:59.002-08:00 [9132:009] [Info] [RNWindowManagerModule] Initialize
+2021-03-07 22:12:59.145-08:00 [9132:004] [Info] [JS] [#ffffffff-u] [TRACE] [JS.Startup] SkypeId missing in Storage
+2021-03-07 22:12:59.378-08:00 [9132:004] [Info] [JS] [#ffffffff-S] [TRACE] [JS.SISU] [QsoProvider] setIsFirstTimeSignIn: true isDeletionEnabledOnFirstTimeSignIn: true
+2021-03-07 22:12:59.379-08:00 [9132:004] [Info] [JS] [#ffffffff-S] [TRACE] [JS.SISU] [QsoProvider] removing all accounts
+2021-03-07 22:12:59.381-08:00 [9132:004] [Info] [JS] [#ffffffff-S] [TRACE] [JS.SISU] [InterruptHandlerProvider] setIsFirstTimeSignIn: true isDeletionEnabledOnFirstTimeSignIn: false
+2021-03-07 22:12:59.382-08:00 [9132:004] [Info] [JS] [#ffffffff-S] [TRACE] [JS.SISU] [MigratedCredentialsProvider] setIsFirstTimeSignIn: true isDeletionEnabledOnFirstTimeSignIn: false
+2021-03-07 22:12:59.394-08:00 [9132:009] [Info] [RNKeyChainModule] Delete Password
+2021-03-07 22:12:59.446-08:00 [9132:009] [Info] [RNKeyChainModule] deletePassword - Deleted credentials with result False
+2021-03-07 22:12:59.486-08:00 [9132:004] [Info] [JS] [#ffffffff-S] [TRACE] [JS.ConsoleSink] initialized and paused
+2021-03-07 22:12:59.489-08:00 [9132:004] [Info] [JS] [#ffffffff-u] [TRACE] [JS.NativeCodeTelemetry] Early noop for onTelemetryEvent
+2021-03-07 22:12:59.980-08:00 [9132:004] [Info] [JS] [#ffffffff-S] [TRACE] [JS.ConsoleSink] resumed
+2021-03-07 22:13:00.437-08:00 [9132:004] [Info] [JS] [#ffffffff-S] [TRACE] [JS.SISU] [Login] starting, attempting credential migration...
+2021-03-07 22:13:00.438-08:00 [9132:004] [Info] [JS] [#ffffffff-S] [TRACE] [JS.SISU] [AutoSignIn] starting...
+2021-03-07 22:13:00.493-08:00 [9132:010] [Info] [CallKitManagerModule] EnsureSkypeBackgroundHostProcessLaunched[0]: complete
+2021-03-07 22:13:00.556-08:00 [9132:009] [Info] [RNMSATokenFetcherModule] Retrieving access token silently
+2021-03-07 22:13:00.556-08:00 [9132:009] [Info] [WAMTokenCacheManager] Account settings not found using old cache keys for service::lw.skype.com::MBI_SSL.
+2021-03-07 22:13:00.563-08:00 [9132:009] [Info] [WAMTokenManager] Cached Web Account Id does not exist for authScope: service::lw.skype.com::MBI_SSL
+2021-03-07 22:13:00.563-08:00 [9132:009] [Info] [WAMTokenManager] [Default MSA] Retrieving access token for authScope: service::lw.skype.com::MBI_SSL
+2021-03-07 22:13:00.663-08:00 [9132:010] [Info] [RNW] ReactInstanceManager: Creating React context - done
+2021-03-07 22:13:00.670-08:00 [9132:002] [Info] [RNW] ReactInstanceManager: Setting up React context - entry
+2021-03-07 22:13:01.301-08:00 [9132:010] [Warn] [WAMTokenManager] [Default MSA] No default MSA available on the machine
+2021-03-07 22:13:01.302-08:00 [9132:010] [Warn] [WAMTokenManager] No default MSA available
+2021-03-07 22:13:01.302-08:00 [9132:010] [Info] [RNMSATokenFetcherModule] Could not retrieve access token from WAM
+2021-03-07 22:13:01.367-08:00 [9132:007] [Info] [CallKitManagerModule] InitializeSkypeBackgroundHostProcess: registered SessionConnected task
+2021-03-07 22:13:01.375-08:00 [9132:002] [Info] [RNW] ReactInstanceManager: Setting up React context - done
+2021-03-07 22:13:01.376-08:00 [9132:002] [Info] [RNW] ReactInstanceManager: GetOrCreateReactContextAsync - returning valid context
+2021-03-07 22:13:01.376-08:00 [9132:007] [Info] [CallKitManagerModule] OnResume (causeId: bb67f476-cfa3-4152-8327-800b78a24549)
+2021-03-07 22:13:01.379-08:00 [9132:002] [Info] [BackgroundTaskManager] OnBackgroundActivated 8706ff8c-72cb-4712-96de-d5838fa31c8e: BackgroundTaskStarted : HeadlessJSTask.StaticTask.OnAppUpdated2
+2021-03-07 22:13:01.466-08:00 [9132:004] [Info] [JS] '[#ffffffff-S] [TRACE] [JS.SISU] [AutoSignIn] errored out fetching access token. Code', 0, 'Message', 4, 'HResult', 'E_UserInteractionRequired'
+2021-03-07 22:13:01.479-08:00 [9132:004] [Info] [JS] [#ffffffff-S] [TRACE] [JS.SISU] [AutoSignIn] attempt complete
+2021-03-07 22:13:01.481-08:00 [9132:004] [Info] [JS] [#ffffffff-S] [TRACE] [JS.SISU] [Login] falling back to interactive login
+2021-03-07 22:13:01.484-08:00 [9132:004] [Info] [JS] [#ffffffff-u] [TRACE] [JS.Startup] AppBootstrapperNative._fallbackToLogin reason: NoSkypeIdFound
+2021-03-07 22:13:01.539-08:00 [9132:010] [Info] [HeadlessTaskRegistrar] registerTriggers called. taskName:'SignInOnUserSessionConnected'
+2021-03-07 22:13:01.581-08:00 [9132:004] [Info] [JS] [#ffffffff-S] [TRACE] [JS.DeviceUtilities] Registering app state handlers
+2021-03-07 22:13:01.583-08:00 [9132:004] [Info] [JS] [#ffffffff-u] [TRACE] [JS.Startup] Starting: ResponsiveWidthStore
+2021-03-07 22:13:01.594-08:00 [9132:004] [Info] [JS] [#ffffffff-S] [TRACE] [JS.ResponsiveWidthStore] New orientation from width update: 1 window dimensions, w: 0 h: 0 rootViewId: [pii<u1>] causeId: bd65172c
+2021-03-07 22:13:01.596-08:00 [9132:004] [Info] [JS] [#ffffffff-u] [TRACE] [JS.Startup] Finish: ResponsiveWidthStore: 13ms
+2021-03-07 22:13:01.596-08:00 [9132:007] [Info] [DeviceUtilities]  --- Registering app state handlers. ---
+2021-03-07 22:13:01.597-08:00 [9132:004] [Info] [JS] [#ffffffff-u] [TRACE] [JS.Startup] Starting: StatusBarManager, Deps Finish: 14ms
+2021-03-07 22:13:01.618-08:00 [9132:004] [Info] [JS] [#ffffffff-u] [TRACE] [JS.Startup] Finish: StatusBarManager: 22ms
+2021-03-07 22:13:01.619-08:00 [9132:004] [Info] [JS] [#ffffffff-u] [TRACE] [JS.Startup] Starting: SafeAreaStore, Deps Finish: 36ms
+2021-03-07 22:13:01.620-08:00 [9132:004] [Info] [JS] [#ffffffff-u] [TRACE] [JS.Startup] Finish: SafeAreaStore: 2ms
+2021-03-07 22:13:01.623-08:00 [9132:004] [Info] [JS] [#ffffffff-u] [TRACE] [JS.Startup] Starting: ReportedConnectivityStore
+2021-03-07 22:13:01.630-08:00 [9132:004] [Info] [JS] [#ffffffff-u] [TRACE] [JS.Startup] Finish: ReportedConnectivityStore: 6ms
+2021-03-07 22:13:01.631-08:00 [9132:004] [Info] [JS] [#ffffffff-u] [TRACE] [JS.Startup] WelcomeScreen waiting for ECS config with timeout: 1000
+2021-03-07 22:13:01.632-08:00 [9132:004] [Info] [JS] [#ffffffff-S] [TRACE] [JS.SISU] [Login] attempt complete
+2021-03-07 22:13:01.673-08:00 [9132:004] [Info] [JS] [#ffffffff-S] [TRACE] [JS.SISU] [BGLogin] Handling Background sign-in
+2021-03-07 22:13:01.696-08:00 [9132:007] [Info] [HeadlessTaskRegistrar] Adding trigger for triggerType:'OnUserSessionConnected'
+2021-03-07 22:13:01.750-08:00 [9132:007] [Info] [HeadlessTaskRegistrar] registerTriggers succeeded. taskName:'HeadlessJSTask.SignInOnUserSessionConnected', Id:'be912818-5aa6-4090-8315-671942b4880e'
+2021-03-07 22:13:01.754-08:00 [9132:007] [Info] [HeadlessTaskRegistrar] registerTriggers called. taskName:'SignInOnDefaultMSAConnected'
+2021-03-07 22:13:01.761-08:00 [9132:007] [Info] [HeadlessTaskRegistrar] Triggers already registered for 'HeadlessJSTask.SignInOnDefaultMSAConnected'. Skipping registration
+2021-03-07 22:13:01.837-08:00 [9132:004] [Info] [JS] [#ffffffff-u] [TRACE] [JS.ReportedConnectivityStore]  _fetchNetworkType() type: Unknown
+2021-03-07 22:13:01.870-08:00 [9132:004] [Info] [JS] [#ffffffff-u] [TRACE] [JS.ReportedConnectivityStore] Performing connectivity/captive portal check with fetch
+2021-03-07 22:13:02.534-08:00 [9132:004] [Info] [JS] [#ffffffff-S] [TRACE] [JS.IdleSchedulingService] oldState: {"uiDisplayed":false,"inCall":false,"inCallEstablishment":false,"networkingAvailable":false,"busyTaskDelay":250,"afterUiShownDelay":2500} partialState: {"networkingAvailable":true} diffState: {"networkingAvailable":true}
+2021-03-07 22:13:02.627-08:00 [9132:007] [Info] [RNBackgroundExecutionModule] acquire(BackgroundSignIn), wakelock id: 1, at: 1615183982, for: 5000 milliseconds
+2021-03-07 22:13:02.633-08:00 [9132:007] [Info] [HeadlessTaskRegistrar] registerTriggers called. taskName:'BackgroundHeartbeatTelemetry'
+2021-03-07 22:13:02.651-08:00 [9132:004] [Info] [JS] [#ffffffff-u] [TRACE] [JS.Startup] WelcomeScreen waiting for ECS config timed out: true
+2021-03-07 22:13:02.665-08:00 [9132:007] [Info] [HeadlessTaskRegistrar] Triggers already registered for 'HeadlessJSTask.BackgroundHeartbeatTelemetry'. Skipping registration
+2021-03-07 22:13:02.677-08:00 [9132:007] [Info] [HeadlessTaskRegistrar] registerTriggers called. taskName:'OnMaintenanceWindowStart'
+2021-03-07 22:13:02.685-08:00 [9132:007] [Info] [HeadlessTaskRegistrar] Triggers already registered for 'HeadlessJSTask.OnMaintenanceWindowStart'. Skipping registration
+2021-03-07 22:13:02.694-08:00 [9132:010] [Info] [HeadlessTaskRegistrar] registerTriggers called. taskName:'ToastActivation'
+2021-03-07 22:13:02.800-08:00 [9132:010] [Info] [HeadlessTaskRegistrar] Adding trigger for triggerType:'OnLocalNotificationAction'
+2021-03-07 22:13:02.847-08:00 [9132:010] [Info] [HeadlessTaskRegistrar] registerTriggers succeeded. taskName:'HeadlessJSTask.ToastActivation', Id:'c22f419c-12b8-47de-ad64-11b338181688'
+2021-03-07 22:13:02.862-08:00 [9132:002] [Error] [DeviceUtilities] screenDpi - exception while accessing display information
+System.Exception: Element not found.
+
+Windows.Graphics.Display: GetForCurrentView must be called on a thread that is associated with a CoreWindow.
+   at System.Runtime.InteropServices.McgMarshal.ThrowOnExternalCallFailed(Int32, RuntimeTypeHandle) + 0x21
+   at __Interop.ComCallHelpers.Call(__ComObject, RuntimeTypeHandle, Int32, Void*) + 0xbe
+   at __Interop.ForwardComStubs.Stub_3[TThis, TResult](__ComObject, Int32) + 0x37
+   at Com.Microsoft.React.RNDeviceUtilities.RNDeviceUtilitiesModule.GetLogicalDpi() + 0x2c
+   at Com.Microsoft.React.RNDeviceUtilities.RNDeviceUtilitiesModule.<>c__DisplayClass36_0.<screenDpi>b__0() + 0x1e
+   at System.Action.Invoke() + 0x25
+   at Com.Microsoft.React.RNDeviceUtilities.RNDeviceUtilitiesModule.<>c__DisplayClass61_0.<<DispatchOnUi>b__0>d.MoveNext() + 0x2c
+
+2021-03-07 22:13:08.217-08:00 [9132:004] [Info] [JS] [#ffffffff-u] [TRACE] [JS.ReportedConnectivityStore] Captive portal check finished; connected: Yes; Status code: 200; Response length: 22
+2021-03-07 22:13:08.631-08:00 [9132:004] [Info] [JS] [#ffffffff-S] [TRACE] [JS.Navigation] shouldUseStackNavigationFromScreenSize: screenDpi is unknown, returning true
+2021-03-07 22:13:08.639-08:00 [9132:004] [Info] [JS] [#ffffffff-u] [TRACE] [JS.Startup] ServiceStateStore: Setting statup UI state to 1
+2021-03-07 22:13:08.690-08:00 [9132:004] [Info] [JS] [#ffffffff-S] [TRACE] [JS.ResponsiveWidthStore] No window width dimension for rootViewId:[pii<u1>]
+2021-03-07 22:13:13.135-08:00 [9132:004] [Info] [JS] [#ffffffff-u] [TRACE] [JS.GenericUnsafe] ECS - Config fetch complete
+2021-03-07 22:13:21.432-08:00 [9132:002] [Warn] [HeadlessJSTaskService] Task failed to complete. Either timeout happened or caller cancelled. Cancelling task. Name: StaticTask.OnAppUpdated2, Id:1 Timeout:20000ms
+2021-03-07 22:13:23.634-08:00 [9132:010] [Info] [RNBackgroundExecutionModule] release(BackgroundSignIn), wakelock id: 1, at: 1615184003, is known: True
+2021-03-07 22:13:23.639-08:00 [9132:010] [Info] [RNBackgroundExecutionModule] releaseAll(BackgroundSignIn), forcing release: 0, ids: [], at: 1615184003, because last ID or Wakeful Service is being released
+2021-03-07 22:13:23.708-08:00 [9132:002] [Info] [BackgroundTaskManager] OnBackgroundActivated: ExecuteHeadlessJsTaskAsync returned type: ''
+2021-03-07 22:13:23.718-08:00 [9132:002] [Info] [RegularSkypeApplication] EnsureReactNativeHostStarted: host already started
+2021-03-07 22:13:23.719-08:00 [9132:002] [Info] [RegularSkypeApplication] GetReactContext: Creating ReactNative context (if not yet)
+2021-03-07 22:13:23.720-08:00 [9132:002] [Info] [RNW] ReactInstanceManager: GetOrCreateReactContextAsync - entry
+2021-03-07 22:13:23.721-08:00 [9132:002] [Info] [RNW] ReactInstanceManager: GetOrCreateReactContextAsync - execute
+2021-03-07 22:13:23.721-08:00 [9132:002] [Info] [RNW] ReactInstanceManager: GetOrCreateReactContextAsync - returning existing valid context
+2021-03-07 22:13:23.764-08:00 [9132:013] [Info] [RNBackgroundExecutionModule] Beginning WaitForAllExtendedExecutionSessionsRelease. ids: []
+2021-03-07 22:13:23.771-08:00 [9132:002] [Info] [BackgroundTaskManager] RNBackgroundExecution.waitForAllExtendedExecutionSessionsRelease result True
+2021-03-07 22:13:23.813-08:00 [9132:010] [Info] [RegularSkypeApplication] OnBackgroundActivated completing deferral
+2021-03-07 22:13:23.877-08:00 [9132:016] [Info] [DeviceUtilities] App is suspending
+2021-03-07 22:13:23.923-08:00 [9132:002] [Info] [Lifecycle] OnSuspendingImplAsync: Start
+2021-03-07 22:13:23.923-08:00 [9132:002] [Info] [RegularSkypeApplication] PauseReactNativeHost: pausing host
+2021-03-07 22:13:23.937-08:00 [9132:002] [Info] [RegularSkypeApplication] PauseReactNativeHost: host paused
+2021-03-07 22:13:23.937-08:00 [9132:002] [Info] [RNW] ReactInstanceManager: TryGetReactContextAsync - entry
+2021-03-07 22:13:23.937-08:00 [9132:002] [Info] [RNW] ReactInstanceManager: TryGetReactContextAsync - execute/returning existing valid context
+2021-03-07 22:13:23.937-08:00 [9132:017] [Info] [CallKitManagerModule] OnSuspend (causeId: dcc9a91e-3f7f-465f-a2fc-43655fcf3d07)
+2021-03-07 22:13:23.937-08:00 [9132:017] [Info] [RNBackgroundExecutionModule] Beginning WaitForAllExtendedExecutionSessionsRelease. ids: []
+2021-03-07 22:13:23.961-08:00 [9132:002] [Info] [BackgroundTaskManager] RNBackgroundExecution.waitForAllExtendedExecutionSessionsRelease result True
+2021-03-07 22:13:23.961-08:00 [9132:017] [Info] [RegularSkypeApplication] WaitForAllBackgroundTasksCompletionReturned. Remaining time: 4369.3123ms
+2021-03-07 22:13:23.962-08:00 [9132:017] [Info] [RegularSkypeApplication] OnSuspendingImplAsync: Complete
+2021-03-07 22:19:02.857-08:00 [9132:016] [Info] [DeviceUtilities] App is resuming
+2021-03-07 22:19:03.078-08:00 [9132:002] [Info] [Lifecycle] OnResuming: Start
+2021-03-07 22:19:03.130-08:00 [9132:002] [Info] [RegularSkypeApplication] EnsureReactNativeHostStarted: starting host
+2021-03-07 22:19:03.190-08:00 [9132:002] [Info] [RegularSkypeApplication] EnsureReactNativeHostStarted: host started
+2021-03-07 22:19:03.190-08:00 [9132:002] [Info] [Lifecycle] OnResuming: Complete
+2021-03-07 22:19:03.195-08:00 [9132:020] [Info] [CallKitManagerModule] OnResume (causeId: 82ca778a-8cf7-4180-b4e5-b8ee46c04313)
+2021-03-07 22:19:16.996-08:00 [9132:018] [Info] [DeviceUtilities] App is suspending
+2021-03-07 22:19:17.227-08:00 [9132:002] [Info] [Lifecycle] OnSuspending: Early exit because GetDeadline failed. HResult = -2147418113
+2021-03-08 00:15:39.379-08:00 [9132:018] [Info] [DeviceUtilities] App is resuming
+2021-03-08 00:15:41.364-08:00 [9132:002] [Info] [Lifecycle] OnResuming: Start
+2021-03-08 00:15:41.552-08:00 [9132:002] [Info] [RegularSkypeApplication] EnsureReactNativeHostStarted: host already started
+2021-03-08 00:15:41.557-08:00 [9132:002] [Info] [Lifecycle] OnResuming: Complete
+2021-03-08 00:15:42.831-08:00 [9132:002] [Info] [RegularSkypeApplication] OnBackgroundActivated 089c9921-6e2a-4c12-bd57-3d985d04ab19
+2021-03-08 00:15:46.032-08:00 [9132:002] [Info] [ExternalApi] Notifications enabled
+2021-03-08 00:15:46.209-08:00 [9132:002] [Info] [BackgroundTaskManager] OnBackgroundActivated: TaskName = BackgroundHeartbeatTelemetry, ErrStr = User is not signed in on Skype, returning...
+2021-03-08 00:15:46.575-08:00 [9132:002] [Info] [RegularSkypeApplication] OnBackgroundActivated completing deferral
+2021-03-08 00:16:03.743-08:00 [9132:025] [Info] [DeviceUtilities] App is suspending
+2021-03-08 00:16:04.108-08:00 [9132:002] [Info] [Lifecycle] OnSuspendingImplAsync: Start
+2021-03-08 00:16:04.129-08:00 [9132:002] [Info] [RegularSkypeApplication] PauseReactNativeHost: pausing host
+2021-03-08 00:16:04.440-08:00 [9132:002] [Info] [RegularSkypeApplication] PauseReactNativeHost: host paused
+2021-03-08 00:16:04.440-08:00 [9132:002] [Info] [RNW] ReactInstanceManager: TryGetReactContextAsync - entry
+2021-03-08 00:16:04.468-08:00 [9132:002] [Info] [RNW] ReactInstanceManager: TryGetReactContextAsync - execute/returning existing valid context
+2021-03-08 00:16:04.545-08:00 [9132:016] [Info] [CallKitManagerModule] OnSuspend (causeId: ecabb7ac-805b-414e-b352-b17defb07d37)
+2021-03-08 00:16:04.660-08:00 [9132:029] [Info] [RNBackgroundExecutionModule] Beginning WaitForAllExtendedExecutionSessionsRelease. ids: []
+2021-03-08 00:16:06.080-08:00 [9132:002] [Info] [BackgroundTaskManager] RNBackgroundExecution.waitForAllExtendedExecutionSessionsRelease result True
+2021-03-08 00:16:06.085-08:00 [9132:029] [Info] [RegularSkypeApplication] WaitForAllBackgroundTasksCompletionReturned. Remaining time: 1171.6883ms
+2021-03-08 00:16:06.111-08:00 [9132:029] [Info] [RegularSkypeApplication] OnSuspendingImplAsync: Complete
+2021-03-08 21:16:27.627-08:00 [5936:002] [Info] [RegularSkypeApplication] App constructor: process started. App version:14.56.102.0
+2021-03-08 21:16:36.335-08:00 [5936:002] [Info] [RegularSkypeApplication] OnBackgroundActivated 31671e09-52b2-4a9c-8d87-d2b4a7f4b1d9
+2021-03-08 21:16:48.414-08:00 [5936:002] [Info] [ExternalApi] Notifications enabled
+2021-03-08 21:16:48.482-08:00 [5936:002] [Info] [BackgroundTaskManager] OnBackgroundActivated: TaskName = BackgroundHeartbeatTelemetry, ErrStr = User is not signed in on Skype, returning...
+2021-03-08 21:16:49.568-08:00 [5936:002] [Info] [RegularSkypeApplication] OnBackgroundActivated completing deferral
+2021-03-08 21:16:49.569-08:00 [5936:002] [Info] [RegularSkypeApplication] OnBackgroundActivated 3b4caf67-78b3-4bc1-a972-2ad14a29e300
+2021-03-08 21:16:49.570-08:00 [5936:002] [Info] [ExternalApi] Notifications enabled
+2021-03-08 21:16:49.730-08:00 [5936:002] [Info] [BackgroundTaskManager] OnBackgroundActivated: TaskName = OnMaintenanceWindowStart, ErrStr = User is not signed in on Skype, No default MSA available on the machine, returning...
+2021-03-08 21:16:49.730-08:00 [5936:002] [Info] [RegularSkypeApplication] OnBackgroundActivated 16d84044-7b9f-4097-a4db-8a0becb41470
+2021-03-08 21:16:49.747-08:00 [5936:002] [Info] [ExternalApi] Notifications enabled
+2021-03-08 21:16:49.753-08:00 [5936:005] [Info] [RegularSkypeApplication] OnBackgroundActivated completing deferral
+2021-03-08 21:16:49.875-08:00 [5936:002] [Info] [BackgroundTaskManager] OnBackgroundActivated: TaskName = SignInOnUserSessionConnected, ErrStr = User is not signed in on Skype, No default MSA available on the machine, returning...
+2021-03-08 21:16:49.890-08:00 [5936:008] [Info] [RegularSkypeApplication] OnBackgroundActivated completing deferral
+2021-03-08 21:16:50.078-08:00 [5936:002] [Info] [Lifecycle] OnSuspending: Early exit because ReactHost was never initialized
+2021-03-10 02:08:47.396-08:00 [4724:002] [Info] [RegularSkypeApplication] App constructor: process started. App version:14.56.102.0
+2021-03-10 02:08:56.599-08:00 [4724:002] [Info] [RegularSkypeApplication] OnBackgroundActivated e02afadf-51fa-4882-8668-55105590c835
+2021-03-10 02:08:58.071-08:00 [4724:002] [Info] [ExternalApi] Notifications enabled
+2021-03-10 02:08:58.583-08:00 [4724:002] [Info] [RegularSkypeApplication] OnBackgroundActivated 9fdbdd4e-c5a9-4426-8d85-cd86f092ff2f
+2021-03-10 02:08:58.603-08:00 [4724:002] [Info] [ExternalApi] Notifications enabled
+2021-03-10 02:08:58.631-08:00 [4724:002] [Info] [BackgroundTaskManager] OnBackgroundActivated: TaskName = BackgroundHeartbeatTelemetry, ErrStr = User is not signed in on Skype, returning...
+2021-03-10 02:08:59.582-08:00 [4724:002] [Info] [RegularSkypeApplication] OnBackgroundActivated completing deferral
+2021-03-10 02:08:59.610-08:00 [4724:002] [Info] [BackgroundTaskManager] OnBackgroundActivated: TaskName = SignInOnUserSessionConnected, ErrStr = User is not signed in on Skype, No default MSA available on the machine, returning...
+2021-03-10 02:08:59.654-08:00 [4724:006] [Info] [RegularSkypeApplication] OnBackgroundActivated completing deferral
+2021-03-10 02:09:00.086-08:00 [4724:002] [Info] [Lifecycle] OnSuspending: Early exit because ReactHost was never initialized
+2021-03-10 05:01:43.778-08:00 [4724:002] [Info] [Lifecycle] OnResuming: Start
+2021-03-10 05:01:44.426-08:00 [4724:002] [Info] [Lifecycle] OnResuming (Early exit because ReactHost was never initialized)
+2021-03-10 05:01:45.142-08:00 [4724:002] [Info] [RegularSkypeApplication] OnBackgroundActivated 3c64366a-ee8e-4385-8dc7-8f7d4df2ffee
+2021-03-10 05:01:45.730-08:00 [4724:002] [Info] [ExternalApi] Notifications enabled
+2021-03-10 05:01:46.106-08:00 [4724:002] [Info] [BackgroundTaskManager] OnBackgroundActivated: TaskName = OnMaintenanceWindowStart, ErrStr = User is not signed in on Skype, No default MSA available on the machine, returning...
+2021-03-10 05:01:46.388-08:00 [4724:008] [Info] [RegularSkypeApplication] OnBackgroundActivated completing deferral
+2021-03-10 05:01:46.615-08:00 [4724:002] [Info] [Lifecycle] OnSuspending: Early exit because ReactHost was never initialized
+2021-03-10 18:12:35.477-08:00 [4724:002] [Info] [Lifecycle] OnResuming: Start
+2021-03-10 18:12:35.477-08:00 [4724:002] [Info] [Lifecycle] OnResuming (Early exit because ReactHost was never initialized)
+2021-03-10 18:12:36.383-08:00 [4724:002] [Info] [RegularSkypeApplication] OnBackgroundActivated 642d7ed0-f5d2-4eac-99f9-6f1f707ac02f
+2021-03-10 18:12:36.383-08:00 [4724:002] [Info] [ExternalApi] Notifications enabled
+2021-03-10 18:12:36.383-08:00 [4724:002] [Info] [BackgroundTaskManager] OnBackgroundActivated: TaskName = BackgroundHeartbeatTelemetry, ErrStr = User is not signed in on Skype, returning...
+2021-03-10 18:12:36.383-08:00 [4724:002] [Info] [RegularSkypeApplication] OnBackgroundActivated completing deferral
+2021-03-10 18:12:36.602-08:00 [4724:002] [Info] [Lifecycle] OnSuspending: Early exit because ReactHost was never initialized
+2021-03-10 19:02:56.935-08:00 [4724:002] [Info] [Lifecycle] OnResuming: Start
+2021-03-10 19:02:57.044-08:00 [4724:002] [Info] [Lifecycle] OnResuming (Early exit because ReactHost was never initialized)
+2021-03-10 19:02:57.091-08:00 [4724:002] [Info] [RegularSkypeApplication] OnBackgroundActivated 93415583-e7cc-4f56-895e-5cffad557c54
+2021-03-10 19:02:57.149-08:00 [4724:002] [Info] [ExternalApi] Notifications enabled
+2021-03-10 19:02:57.897-08:00 [4724:002] [Info] [BackgroundTaskManager] OnBackgroundActivated: TaskName = OnMaintenanceWindowStart, ErrStr = User is not signed in on Skype, No default MSA available on the machine, returning...
+2021-03-10 19:02:57.908-08:00 [4724:011] [Info] [RegularSkypeApplication] OnBackgroundActivated completing deferral
+2021-03-10 19:02:57.979-08:00 [4724:002] [Info] [Lifecycle] OnSuspending: Early exit because ReactHost was never initialized
+2021-03-11 22:57:10.862-08:00 [7380:002] [Info] [RegularSkypeApplication] App constructor: process started. App version:14.56.102.0
+2021-03-11 22:57:11.147-08:00 [7380:002] [Info] [RegularSkypeApplication] OnBackgroundActivated e511965b-5aee-4e0e-b5fb-1b0dc057332a
+2021-03-11 22:57:11.203-08:00 [7380:002] [Info] [ExternalApi] Notifications enabled
+2021-03-11 22:57:11.219-08:00 [7380:002] [Info] [RegularSkypeApplication] OnBackgroundActivated 14db6c34-a457-454f-8e65-72f803abd026
+2021-03-11 22:57:11.219-08:00 [7380:002] [Info] [ExternalApi] Notifications enabled
+2021-03-11 22:57:11.219-08:00 [7380:002] [Info] [BackgroundTaskManager] OnBackgroundActivated: TaskName = BackgroundHeartbeatTelemetry, ErrStr = User is not signed in on Skype, returning...
+2021-03-11 22:57:11.271-08:00 [7380:002] [Info] [RegularSkypeApplication] OnBackgroundActivated completing deferral
+2021-03-11 22:57:11.271-08:00 [7380:002] [Info] [BackgroundTaskManager] OnBackgroundActivated: TaskName = SignInOnUserSessionConnected, ErrStr = User is not signed in on Skype, No default MSA available on the machine, returning...
+2021-03-11 22:57:11.271-08:00 [7380:006] [Info] [RegularSkypeApplication] OnBackgroundActivated completing deferral
+2021-03-11 22:57:11.295-08:00 [7380:002] [Info] [Lifecycle] OnSuspending: Early exit because ReactHost was never initialized
+2021-03-12 00:16:54.866-08:00 [7380:002] [Info] [Lifecycle] OnResuming: Start
+2021-03-12 00:16:55.899-08:00 [7380:002] [Info] [Lifecycle] OnResuming (Early exit because ReactHost was never initialized)
+2021-03-12 00:16:56.805-08:00 [7380:002] [Info] [RegularSkypeApplication] OnBackgroundActivated 4b232d2f-5b1f-41f6-aac0-47e3be92f74e
+2021-03-13 21:36:13.546-08:00 [4480:002] [Info] [RegularSkypeApplication] App constructor: process started. App version:14.56.102.0
+2021-03-13 21:36:15.921-08:00 [4480:002] [Info] [RegularSkypeApplication] OnBackgroundActivated 87b56904-7538-4f24-b4a5-50c3be571399
+2021-03-13 21:36:17.477-08:00 [4480:002] [Info] [ExternalApi] Notifications enabled
+2021-03-13 21:36:17.508-08:00 [4480:002] [Info] [BackgroundTaskManager] OnBackgroundActivated: TaskName = BackgroundHeartbeatTelemetry, ErrStr = User is not signed in on Skype, returning...
+2021-03-13 21:36:18.297-08:00 [4480:002] [Info] [RegularSkypeApplication] OnBackgroundActivated completing deferral
+2021-03-13 21:36:18.297-08:00 [4480:002] [Info] [RegularSkypeApplication] OnBackgroundActivated c07f2991-d29c-4b8f-80d6-8b99975b0c9c
+2021-03-13 21:36:18.305-08:00 [4480:002] [Info] [ExternalApi] Notifications enabled
+2021-03-13 21:36:18.539-08:00 [4480:002] [Info] [BackgroundTaskManager] OnBackgroundActivated: TaskName = SignInOnUserSessionConnected, ErrStr = User is not signed in on Skype, No default MSA available on the machine, returning...
+2021-03-13 21:36:18.539-08:00 [4480:004] [Info] [RegularSkypeApplication] OnBackgroundActivated completing deferral
+2021-03-13 21:36:18.601-08:00 [4480:002] [Info] [Lifecycle] OnSuspending: Early exit because ReactHost was never initialized
+2021-03-14 19:29:52.120-07:00 [4480:002] [Info] [Lifecycle] OnResuming: Start
+2021-03-14 19:29:52.144-07:00 [4480:002] [Info] [Lifecycle] OnResuming (Early exit because ReactHost was never initialized)
+2021-03-14 19:29:57.142-07:00 [4480:002] [Info] [RegularSkypeApplication] OnBackgroundActivated 9e5c0822-56a8-4eeb-8083-6b0efa87533c
+2021-03-14 19:29:59.030-07:00 [4480:002] [Info] [ExternalApi] Notifications enabled
+2021-03-14 19:29:59.066-07:00 [4480:002] [Info] [BackgroundTaskManager] OnBackgroundActivated: TaskName = BackgroundHeartbeatTelemetry, ErrStr = User is not signed in on Skype, returning...
+2021-03-14 19:29:59.338-07:00 [4480:002] [Info] [RegularSkypeApplication] OnBackgroundActivated completing deferral
+2021-03-14 19:30:00.377-07:00 [4480:002] [Info] [Lifecycle] OnSuspending: Early exit because ReactHost was never initialized
+2021-03-15 02:57:09.905-07:00 [8904:002] [Info] [RegularSkypeApplication] App constructor: process started. App version:14.56.102.0
+2021-03-15 02:57:24.292-07:00 [8904:002] [Info] [RegularSkypeApplication] OnBackgroundActivated 2840bf98-bd47-4170-8563-bef90752ac7c
+2021-03-15 02:57:26.902-07:00 [8904:002] [Info] [ExternalApi] Notifications enabled
+2021-03-15 02:57:26.917-07:00 [8904:002] [Info] [BackgroundTaskManager] OnBackgroundActivated: TaskName = BackgroundHeartbeatTelemetry, ErrStr = User is not signed in on Skype, returning...
+2021-03-15 02:57:28.808-07:00 [8904:002] [Info] [RegularSkypeApplication] OnBackgroundActivated completing deferral
+2021-03-15 02:57:29.964-07:00 [8904:002] [Info] [Lifecycle] OnSuspending: Early exit because ReactHost was never initialized
+2021-03-15 04:22:26.535-07:00 [8904:002] [Info] [Lifecycle] OnResuming: Start
+2021-03-15 04:22:26.535-07:00 [8904:002] [Info] [Lifecycle] OnResuming (Early exit because ReactHost was never initialized)
+2021-03-15 04:22:26.613-07:00 [8904:002] [Info] [RegularSkypeApplication] OnBackgroundActivated 8e809049-344f-4e42-9452-091fac51ccd8
+2021-03-15 20:51:38.611-07:00 [7952:002] [Info] [RegularSkypeApplication] App constructor: process started. App version:14.56.102.0
+2021-03-15 20:51:43.750-07:00 [7952:002] [Info] [RegularSkypeApplication] OnBackgroundActivated af166991-84a8-4a76-a3c0-273a5ebeb7f1
+2021-03-15 20:51:51.616-07:00 [7952:002] [Info] [ExternalApi] Notifications enabled
+2021-03-15 20:51:52.663-07:00 [7952:002] [Info] [BackgroundTaskManager] OnBackgroundActivated: TaskName = BackgroundHeartbeatTelemetry, ErrStr = User is not signed in on Skype, returning...
+2021-03-15 20:51:57.246-07:00 [7952:002] [Info] [RegularSkypeApplication] OnBackgroundActivated completing deferral
+2021-03-15 20:51:57.434-07:00 [7952:002] [Info] [Lifecycle] OnSuspending: Early exit because ReactHost was never initialized
+2021-03-20 03:56:54.043-07:00 [4416:002] [Info] [RegularSkypeApplication] App constructor: process started. App version:14.56.102.0
+2021-03-20 03:57:38.691-07:00 [4416:002] [Info] [RegularSkypeApplication] OnBackgroundActivated 94d4d603-ade0-4bb4-a920-f28beac5c9b7
+2021-03-20 03:57:42.081-07:00 [4416:002] [Info] [ExternalApi] Notifications enabled
+2021-03-20 03:57:42.252-07:00 [4416:002] [Info] [BackgroundTaskManager] OnBackgroundActivated: TaskName = BackgroundHeartbeatTelemetry, ErrStr = User is not signed in on Skype, returning...
+2021-03-20 03:57:42.893-07:00 [4416:002] [Info] [RegularSkypeApplication] OnBackgroundActivated completing deferral
+2021-03-20 03:57:43.002-07:00 [4416:002] [Info] [Lifecycle] OnSuspending: Early exit because ReactHost was never initialized
+2021-03-21 21:59:43.272-07:00 [1600:002] [Info] [RegularSkypeApplication] App constructor: process started. App version:14.56.102.0

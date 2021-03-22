@@ -1,0 +1,7 @@
+03/20/2021 03:57:43.72	Information	DataMartConfig.json not found
+03/20/2021 03:57:43.89	Error	LPA creation failed with no modem found.
+03/20/2021 03:57:43.89	Error	Modem not found
+03/20/2021 03:57:43.98	Information	DataMartConfig.json not found
+03/20/2021 03:57:44.15	Information	Existing registraion with name OneConnect.DiscoveryNotificationTask was found and replaced
+03/20/2021 03:57:44.15	Information	Unregistering task with name: OneConnect.DiscoveryNotificationTask
+03/20/2021 03:57:44.17	Information	Registered task with name: OneConnect.DiscoveryNotificationTask

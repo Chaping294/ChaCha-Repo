@@ -1,0 +1,1 @@
+[#fullscreen: "on", #music: 99, #effects: 100, #mode: 1, #musicList: "standard"]

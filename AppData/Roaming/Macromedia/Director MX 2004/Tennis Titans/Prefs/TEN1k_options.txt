@@ -1,0 +1,1 @@
+[#fullscreen: "on", #music: "on", #effects: "on", #gamemode: 1, #quality: "on", #gametips: "off", #help: "on", #difficulty: "0.5000", #firstIn: 0, #hwTest: 1, #renderer: #directX7_0, #screenRez: 1, #fps: 51]

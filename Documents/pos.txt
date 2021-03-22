@@ -1,0 +1,119 @@
+package pos;
+
+import java.util.Scanner;
+
+
+public class Malaque {
+
+    public static void main(String[] args) {
+            Scanner input = new Scanner(System.in);
+            int qty  ;
+            boolean order,addOrder=true;
+            float totalSale,vat=0,price,change=0,money,rate =12;
+            float grilledBeef=0,stewedChicken=0,friedChicken=0,caldereta=0,rice = 0,drinks=0;
+            while(addOrder){
+                
+                    do{
+            System.out.println("Charlyn's Eatery\n\n\t\t\t Menu\n");
+            System.out.println("Grilled Beef[1]-------------------------------250/Serve");
+            System.out.println("Stewed Chicken Breast[2]----------------------200/Serve");
+            System.out.println("Fried Chicken[3]------------------------------150/Serve");
+            System.out.println("Caldereta (pork/chicken)[4]-------------------270/Serve");
+            System.out.println("Rice[5]---------------------------------------15/Cup");
+            System.out.println("Drinks(Coke/Sprite/Nestea)[6]-----------------15/Glass");
+            System.out.print("Choose your product: ");
+            char choice = input.next().charAt(0);
+            switch(choice){
+                
+                case '1':
+                        System.out.println("Grilled Beef");
+                          System.out.print("Quantity:  ");
+                          qty = input.nextInt();
+                        price = 250;
+                        vat +=(price/100*rate)*qty;
+                        grilledBeef += price*qty;
+                          order =true;
+                    break;
+                case '2':
+                        System.out.println("Stewed Chicken Breast");
+                        price = 200;
+                         System.out.print("Quantity:  ");
+                          qty = input.nextInt();
+               
+                        vat +=(price/100*rate)*qty;
+                        stewedChicken += price*qty;
+                         order =true;
+                    break;  
+                case '3':
+                        System.out.println("Fried Chicken");
+                        price =150;
+                           System.out.print("Quantity:  ");
+                          qty = input.nextInt();
+                      
+                        vat +=(price/100*rate)*qty;
+                        friedChicken += price*qty;
+                        order =true;
+                    break; 
+                case '4':
+                        System.out.println("Caldereta (pork/chicken)");
+                        price =270;
+                          System.out.print("Quantity:  ");
+                          qty = input.nextInt();
+                        vat +=(price/100*rate)*qty;
+                        caldereta += price*qty;
+                         order =true;
+                    break;    
+                 case '5':
+                        System.out.println("Rice)");
+                        price =15;
+                         System.out.print("Quantity:  ");
+                          qty = input.nextInt();
+                        vat +=(price/100*rate)*qty;
+                        rice += price*qty;
+                         order =true;
+                          break;
+                          
+                  case '6':
+                        System.out.println("Drinks)");
+                        price =15;
+                          System.out.print("Quantity:  ");
+                          qty = input.nextInt();
+                        vat +=(price/100*rate)*qty;
+                        drinks += price*qty;
+                          order =true;
+                    break;  
+                  default:
+                      order =false;
+                      
+                      break;
+            }
+                  if(!order){
+                      System.out.println("No selected Item");
+                  }
+                  
+                    }while(!order);
+                    
+                 input.nextLine();
+                 
+                 boolean select;
+                 do{
+                System.out.print("Would you like to purchase again?(Y/N)  ");
+               String addOr = input.nextLine();
+               
+                if(addOr.equalsIgnoreCase("N")){
+                    addOrder = false;
+                    select = true;
+                }
+                else  if(addOr.equalsIgnoreCase("Y")){
+                    addOrder = true;
+                    select = true;
+                }
+                else{
+                    System.out.println("\nInvalid selection");
+                    select = false;
+                }
+                 }while(!select);
+            }
+            
+              System.out.println("\n\t\tMalaque's Food House\n\tDullan, Aloran, Misamis Occidental\n\t\tCel.No.:09106303297");
+              System.out.println("---------------------------------------------------------------------\n");

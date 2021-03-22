@@ -1,0 +1,28 @@
+New Session 15_11_2020_3_11_13_370
+ID:94dd5318_DESKTOP-P80D30P
+Process:D:\DON'T DELETE [APPLICATION]\GAMEHOUSE\GameHouse Games Collection\Tumblebugs\Tumblebugs.exe
+CPUs:2
+CPULevel:6
+CPURev:19460
+CPUMHz:1607
+WinVer:6.2,9200,
+Display:Intel(R) HD Graphics,p
+Display:Intel(R) HD Graphics,s
+Display:Intel(R) HD Graphics,s
+ScrWidth:800
+ScrHeight:600
+ScrBPP:16
+VWidth:800
+VHeight:600
+MemLoad:50%
+TotPhys:1892
+FreePhys:938
+TotPage:2724
+FreePage:771
+TotVirtual:2047
+FreeVirtual:1715
+
+Loading time 8 seconds
+cha	1-1	0	Round And Round The Garden	1	60	29	4550	3	8	0	8	1	100
+cha	1-2	1	This Is Not A Drill	0	65	68	2230	2	6	0	7	1	100
+Session End	cha	13-1	192	6810	2	14	0	8	1
